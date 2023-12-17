@@ -1,0 +1,45 @@
+body {
+    background-image: url(clique.png);
+}
+
+.coracao{
+    display: flex;
+    margin: auto;
+    width: 440px;
+    height: 440px;
+    justify-content: center;
+}
+.cx{
+    margin: 200px auto auto auto;
+}
+
+.container{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.primeiro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    position: absolute;
+    top: 65%;
+    left: 53%;
+    transform: translate(-65%, -53%);
+    -ms-transform: translate(-65%, -53%);
+    background-color: #ec2a4b;
+    color: #ec2a4b;
+    font-size: 10px;
+    padding: 5px 5px;
+    border: none;
+    cursor: pointer;
+    font-family: minhafonte;
+}
+
+.button:hover{
+    background-color: #F87188;
+}
